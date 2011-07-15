@@ -1,0 +1,16 @@
+/*
+USAGE
+
+You'll have to set the mobile domain and the location of the script.
+*/
+
+<script type="text/javascript"> 
+//CONFIGURATION
+var websitez_mobile_detection_api = {
+	current_domain: document.domain,
+	redirect_mobile_visitor: true,
+	mobile_website_url: 'http://m.domain.com',
+	insert_mobile_website_footer_override_link: true
+}
+</script> 
+<script type="text/javascript" src="http://remotedomain.com/is_mobile.php"></script> 
